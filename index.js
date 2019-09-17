@@ -1,3 +1,6 @@
 main.remove(main)
-let newHeader = document.getElementById("h1#victory")
-newHeader.innerHTML = "YOUR-NAME is the champion"
+
+const newHeader = document.createElement("h1");
+newHeader.id = "victory"
+newHeader.innerHTML = "Flatiron School is the champion!";
+newHeader.className = "victory";
